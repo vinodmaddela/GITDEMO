@@ -17,7 +17,7 @@ public class BrowserCreator {
 
     public WebDriver getBrowser(){
         browser=TestConfig.getBrowser();
-        URL=TestConfig.url;
+        
 
         switch(browser){
             case "Firefox":{
