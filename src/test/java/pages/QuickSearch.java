@@ -31,7 +31,4 @@ public class QuickSearch {
         lib.elementClick(quickorder);
     }
 
-    public void checkout_basket(){
-        lib.waitForElementVisible(myBasket);
-    }
 }
