@@ -13,9 +13,6 @@ public class QuickSearchStep extends Pages{
         qsp.place_quickorder();
     }
 
-    @Then("^user should see his item in the basket summary page$")
-    public void user_should_see_his_item_in_the_basket_summary_page() throws Throwable {
-        qsp.checkout_basket();
-    }
+
 
 }
