@@ -4,6 +4,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(format={"html:target/cucumber/",
-        "json:target/cucumber.json",},features = "src/test/resources",tags = "@search")
+        "json:target/cucumber.json",},features = "src/test/resources")
 public class RunnerTest {
 }
